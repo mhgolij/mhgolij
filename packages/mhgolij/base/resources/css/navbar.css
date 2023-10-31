@@ -1,0 +1,7 @@
+#opneProfileList :last-child{
+    transition: 0.5s;
+}
+.hc-nav-trigger.hc-nav-1{
+    margin-top:-0.2rem;
+    margin-right: 2rem;
+}

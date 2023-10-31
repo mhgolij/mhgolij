@@ -1,0 +1,28 @@
+{
+    "name": "mhgolij/site",
+    "description": "site of mhgolij's package",
+    "license": "MIT",
+    "keywords": ["admin","laravel","admin-panel","admin-core", "laravel-admin-panel","laravel-site-maker"],
+    "authors": [
+        {
+            "name": "Mohammad H Goli J",
+            "homepage": "https://golij.ir"
+        }
+    ],
+    "require": {
+        "mhgolij/base": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "mhgolij\\site\\": "src",
+            "mhgolij\\site\\Database\\Seeders\\": "database/seeders"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "mhgolij\\site\\SiteServiceProvider"
+            ]
+        }
+    }
+}
